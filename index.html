@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
+	
+
+	<link rel="stylesheet" href="css/icon-font.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<link rel="shortcut icon" type="image/png" href="">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+	<title>Document</title>
+
+
+	<!-- IE bi loi scroll , do header co position (da fix) -->
+	<!-- IE bi loi video 2 goc ,  (chua fix) -->
+	<!-- google bi loi bg-fixed ,  dat lai zindex(da fix) -->
+
+</head>
+<body>
+	<div class="navigation">
+		<input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+		<label for="navi-toggle" class="navigation__button">
+			<span class="navigation__icon">&nbsp;</span>
+			<span class="navigation__tooltip">Menu today</span>
+		</label>
+		<div class="navigation__background">&nbsp;</div>
+
+		<div class="navigation__nav">
+			<div class="box__img">
+				<div class="col__img"><img src="img/i-food-1.jpg">
+					<p class="u-center-text"> test</p>
+				</div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+			</div>
+			<div class="box__img">
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+			</div>
+			<div class="box__img">
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+			</div>
+			<div class="box__img">
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+			</div>
+			<div class="box__img">
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+				<div class="col__img"><img src="img/i-food-1.jpg"></div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<!-- ///////////////////////     HEADER    /////////////////////////-->
+	<header class="header" id="home">
+		<!-- backgroud video -->
+		<div class="bg-video">
+			<video class="bg-video__content" autoplay muted loop>
+				<source src="img/Egg-Shop.mp4" type="video/mp4">
+				<source src="img/Egg-Shop.webm" type="video/webm">
+				Not support
+			</video>
+		</div>
+		<!-- logo -->
+		<div class="header__logo-box">
+			<a href="#popup"><img src="img/logo.png" alt="" class="header__logo"></a>
+		</div>
+		<!-- Content-text -->
+		<div class="header__text-box">
+			<div class="heading-primary">
+				<h1 class="heading-primary--main">KING FOO BUFFET</h1>
+				<p class="heading-primary--sub">"It’s those little human moments that stick with you 
+					forever, the random acts of kindness"</p>
+			</div>
+			<!-- form -->
+			<form action="#">
+				<div class="form__search btn--animate ">
+					<input type="text" class="form__search-input" name="receive" placeholder="Receive messages...">
+					<span class="form__search-group-btn">
+						<button type="button" class="form__search-btn btn--receive">
+							<span class="lnr lnr-rocket form__search-icon icon--animate"></span>SEND
+						</button>
+					</span>	
+				</div>	
+			</form>
+		</div>
+
+	</header>
+	<!-- ///////////////////////     END HEADER    /////////////////////////-->
+
+	<main>
+		<!-- ///////////////////////     ABOUT    /////////////////////////-->
+		<section class="section-about" id="about">
+			<div class="row">
+				<!-- left content -->
+				<div class="col-1-of-2">
+					<!-- heading section -->
+					<div class="heading-normal">
+						<h2 class="heading-normal--main">About uS</h2>
+						<p class="heading-normal--sub">Lorem ipsum dolor sit amet, consectetur </p>
+					</div>
+					<p class="paragraph m-bottom-3r">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam,</p>
+					<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+					<!-- social -->
+					<footer class="col-1-of-2">
+							<div class="social">
+								<ul class="list-line">
+									<li><a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="5 -1 12 24">
+												<defs>
+													<g id="port-fb">
+														<path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/>
+													</g>
+												</defs>
+												<use xlink:href="#port-fb"></use>
+											</svg>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 24 24">
+												<defs>
+													<g id="port-tw">
+														<path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+													</g>
+												</defs>
+												<use xlink:href="#port-tw"></use>
+											</svg>
+
+
+										</a>
+									</li>
+
+									<li>
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+												<defs>
+													<g id="port-yt">
+														<path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+													</g>
+												</defs>
+												<use xlink:href="#port-yt"></use>
+											</svg>
+
+										</a>
+									</li>
+
+									<li>
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="31" height="21" viewBox="0 5 25 15">
+												<defs>
+													<g id="port-gg">
+														<path d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z" fill-rule="evenodd" clip-rule="evenodd"/>
+													</g>
+												</defs>			
+												<use xlink:href="#port-gg"></use>	
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<p class="number-phone">(08)-232-232</p>
+					</footer>	
+				</div>				
+				<!-- right content -->
+				<div class="col-1-of-2">
+					<!-- picture-1 -->
+					<div class="col-1-of-2 side__picture ">
+						<img src="img/about3.jpg" alt="about" class="side__picture--scroll-x">
+					</div>
+					<!-- picture-2 -->
+					<div class="col-1-of-2 side__picture side__picture--top">
+						<img src="img/about2.jpg" alt="about" class="side__picture--scroll-x" >
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ////////////////////////// END ABOUT //////////////////////////-->
+		
+		<!-- ///////////////////////     SERVICES    /////////////////////////-->
+		<section class="section-services" id="services">
+			<!-- heading section -->
+			<div class="u-center-text m-bottom-5r">
+				<div class="heading-secondary">
+					<h2 class="heading-secondary--main">OUR SERVICES</h2>
+					<p class="heading-secondary--sub">Sed ut perspiciatis unde omnis iste natus error</p>
+				</div>
+			</div>
+			<!-- content section -->
+			<div class="row">
+				<!-- 1 -->
+				<div class="col-1-of-4">
+					<div class="services-box">
+						<span class="lnr lnr-dinner font-icon-32"></span> 
+						<h6 class="heading-quinary heading-quinary--c1">EXPLORE THE WORLD</h6>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+						</p>
+					</div>
+				</div>
+				<!-- 2 -->
+				<div class="col-1-of-4">
+					<div class="services-box">
+						<span class="lnr lnr-star font-icon-32"></span> 
+						<h6 class="heading-quinary heading-quinary--c2">EXPLORE THE WORLD</h6>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+						</p>
+					</div>
+				</div>	
+				<!-- 3 -->
+				<div class="col-1-of-4">
+					<div class="services-box">
+						<span class="lnr lnr-heart font-icon-32"></span> 
+						<h6 class="heading-quinary heading-quinary--c3">EXPLORE THE WORLD</h6>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+						</p>
+					</div>
+				</div>
+				<!-- 4 -->
+				<div class="col-1-of-4">
+					<div class="services-box">
+						<span class="lnr lnr-smile font-icon-32" ></span> 
+						<h6 class="heading-quinary heading-quinary--c4">EXPLORE THE WORLD</h6>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ////////////////////////// END SERVICES //////////////////////////-->
+
+
+		<!-- ///////////////////////     introduction    /////////////////////////-->
+		<section class="section-intro">
+			<!-- content-section -->
+			<div class="row">
+				<!-- 1 -->
+				<div class="col-1-of-3">
+					<div class="intro-box">
+						<img src="img\i-food-2.jpg" width="360" height="300" alt="f1" class="intro-box__img">
+						<div class="intro-box__screen">
+							<a href="#" class="btn btn--primary">BOOK NOW</a>
+						</div>
+					</div>
+				</div>
+				<!-- 2 -->
+				<div class="col-1-of-3">
+					<div class="intro-box__text u-center-text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+					</div>
+				</div>
+				<!-- 3 -->
+				<div class="col-1-of-3">
+					<div class="intro-box">
+						<img src="img\i-food-3.jpg" width="360" height="300" alt="f1" class="intro-box__img">
+						<div class="intro-box__screen">
+							<a href="#" class="btn btn--primary">BOOK NOW</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="m-bottom-4r"></div>
+			<!-- content-section -->
+			<div class="row">
+				<!-- 4 -->
+				<div class="col-1-of-3">
+					<div class="intro-box">
+						<img src="img\i-food-4.jpg" width="360" height="300" alt="f1" class="intro-box__img">
+						<div class="intro-box__screen">
+							<a href="#" class="btn btn--primary">BOOK NOW</a>
+						</div>
+					</div>
+				</div>
+				<!-- 5 -->
+				<div class="col-1-of-3">
+					<div class="intro-box">
+						<img src="img\i-food-6.jpg" width="360" height="300" alt="f1" class="intro-box__img">
+						<div class="intro-box__screen">
+							<a href="#" class="btn btn--primary">BOOK NOW</a>
+						</div>
+					</div>
+				</div>
+				<!-- 6 -->
+				<div class="col-1-of-3">
+					<div class="intro-box">
+						<img src="img\i-food-5.jpg" width="360" height="300" alt="f1" class="intro-box__img">
+						<div class="intro-box__screen">
+							<a href="#" class="btn btn--primary">BOOK NOW</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ////////////////////////// END introduction //////////////////////////-->
+
+		<!-- ///////////////////////     TEAM    /////////////////////////-->
+		<section class="section-team" id="team">
+			<!-- heading section -->
+			<div class="u-center-text m-bottom-5r">
+				<div class="heading-secondary">
+					<h2 class="heading-secondary--main">OUR CHEF</h2>
+					<p class="heading-secondary--sub">Sed ut perspiciatis unde omnis iste natus error</p>
+				</div>
+			</div>
+			<!-- content-section -->
+			<div class="row">
+				<!-- 1 -->
+				<div class="col-1-of-3">
+					<!-- block card-->
+					<div class="card">
+						<!-- front card -->
+						<div class="card__slide card__slide--front">
+							<!-- header avatar-->
+							<header>
+								<div class="card__avatar card__avatar--1">&nbsp;</div>
+								<div class="card__chef">
+									<h5 class="card__chef--name">Martin Yan</h5>
+									<p class="card__chef--sub">Master Chef</p>
+									<div class="card__chef--triangle">&nbsp;</div>
+								</div>
+							</header>
+							<!-- details-->
+							<footer>
+								<div class="card__details">
+									<ul>
+										<li><span class="lnr lnr-diamond font-icon-18"></span>Catey awards</li>
+										<li><span class="lnr lnr-earth font-icon-18"></span>Newcomer of the Year</li>
+										<li><span class="lnr lnr-leaf font-icon-18"></span>Chef of the Year</li>
+										<li><span class="lnr lnr-heart font-icon-18"></span>Caterersearch 100 list</li>
+									</ul>
+								</div>
+							</footer>	
+						</div>
+						<!-- back card -->
+						<div class="card__slide card__slide--back">
+							<!-- picture -->
+							<div class="card__picture card__picture--1">&nbsp;</div>
+							<!-- social -->
+							<div class="social">
+								<ul class="list-line">
+									<li class="svg__icon svg__icon--fb">
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" fill="#385998" viewBox="5 -1 12 24">
+												<use xlink:href="#port-fb"></use>
+											</svg>
+										</a>
+									</li>
+
+									<li class="svg__icon svg__icon--tw">
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="28" fill="#33ccff" viewBox="0 0 22 22">
+												<use xlink:href="#port-tw"></use>
+											</svg>
+										</a>
+									</li>
+
+									<li class="svg__icon svg__icon--yt">
+										<a href="#">	
+											<svg xmlns="http://www.w3.org/2000/svg" width="32" height="23" fill="#c91809" viewBox="0 3 25 19">
+												<use xlink:href="#port-yt"></use>
+											</svg>
+										</a>
+									</li>
+
+									<li class="svg__icon svg__icon--gg">
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="43" height="29" fill="#ea4335" viewBox="0 4 25 14">	
+												<use xlink:href="#port-gg"></use>					
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 2 -->
+				<div class="col-1-of-3">
+					<!-- block card-->
+					<div class="card">
+						<!-- front card -->
+						<div class="card__slide card__slide--front">
+							<!-- header avatar-->
+							<header>
+								<div class="card__avatar card__avatar--2">&nbsp;</div>
+								<div class="card__chef">
+									<h5 class="card__chef--name">Martin Yan</h5>
+									<p class="card__chef--sub">Master Chef</p>
+									<div class="card__chef--triangle">&nbsp;</div>
+								</div>
+							</header>
+							<!-- details-->
+							<footer>
+								<div class="card__details">
+									<ul>
+										<li><span class="lnr lnr-diamond font-icon-18"></span>Catey awards</li>
+										<li><span class="lnr lnr-earth font-icon-18"></span>Newcomer of the Year</li>
+										<li><span class="lnr lnr-leaf font-icon-18"></span>Chef of the Year</li>
+										<li><span class="lnr lnr-heart font-icon-18"></span>Caterersearch 100 list</li>
+									</ul>
+								</div>
+							</footer>	
+						</div>
+						<!-- back card -->
+						<div class="card__slide card__slide--back">
+							<!-- picture -->
+							<div class="card__picture card__picture--2">&nbsp;</div>
+							<!-- social -->
+							<div class="social">
+								<ul class="list-line">
+									<li class="svg__icon svg__icon--fb">
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" fill="#385998" viewBox="5 -1 12 24">
+												<use xlink:href="#port-fb"></use>
+											</svg>
+										</a>
+									</li>
+
+									<li class="svg__icon svg__icon--tw">
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="28" fill="#33ccff" viewBox="0 0 22 22">
+												<use xlink:href="#port-tw"></use>
+											</svg>
+										</a>
+									</li>
+
+									<li class="svg__icon svg__icon--yt">
+										<a href="#">	
+											<svg xmlns="http://www.w3.org/2000/svg" width="32" height="23" fill="#c91809" viewBox="0 3 25 19">
+												<use xlink:href="#port-yt"></use>
+											</svg>
+										</a>
+									</li>
+
+									<li class="svg__icon svg__icon--gg">
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="43" height="29" fill="#ea4335" viewBox="0 4 25 14">	
+												<use xlink:href="#port-gg"></use>					
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 3 -->	
+				<div class="col-1-of-3">
+					<!-- block card -->
+					<div class="card">
+						<!-- front card -->
+						<div class="card__slide card__slide--front">
+							<!-- header avatar -->
+							<header>
+								<div class="card__avatar card__avatar--3">&nbsp;</div>
+								<div class="card__chef">
+									<h5 class="card__chef--name">Martin Yan</h5>
+									<p class="card__chef--sub">Master Chef</p>
+									<div class="card__chef--triangle">&nbsp;</div>
+								</div>
+							</header>
+							<!-- details -->
+							<footer>
+								<div class="card__details">
+									<ul>
+										<li><span class="lnr lnr-diamond font-icon-18"></span>Catey awards</li>
+										<li><span class="lnr lnr-earth font-icon-18"></span>Newcomer of the Year</li>
+										<li><span class="lnr lnr-leaf font-icon-18"></span>Chef of the Year</li>
+										<li><span class="lnr lnr-heart font-icon-18"></span>Caterersearch 100 list</li>
+									</ul>
+								</div>
+							</footer>	
+						</div>
+						<!-- back card -->
+						<div class="card__slide card__slide--back">
+							<!-- picture -->
+							<div class="card__picture card__picture--3">&nbsp;</div>
+							<!-- social -->
+							<div class="social">
+								<ul class="list-line">
+									<li class="svg__icon svg__icon--fb">
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="29" fill="#385998" viewBox="5 -1 12 24">
+												<use xlink:href="#port-fb"></use>
+											</svg>
+										</a>
+									</li>
+
+									<li class="svg__icon svg__icon--tw">
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="28" fill="#33ccff" viewBox="0 0 22 22">
+												<use xlink:href="#port-tw"></use>
+											</svg>
+										</a>
+									</li>
+
+									<li class="svg__icon svg__icon--yt">
+										<a href="#">	
+											<svg xmlns="http://www.w3.org/2000/svg" width="32" height="23" fill="#c91809" viewBox="0 3 25 19">
+												<use xlink:href="#port-yt"></use>
+											</svg>
+										</a>
+									</li>
+
+									<li class="svg__icon svg__icon--gg">
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="43" height="29" fill="#ea4335" viewBox="0 4 25 14">	
+												<use xlink:href="#port-gg"></use>					
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ////////////////////////// END TEAM //////////////////////////-->
+
+		<!-- ///////////////////////     COUNTDOWN    /////////////////////////-->
+		<section class="section-countdown" id="counter-app">
+			<!-- content section -->
+			<div class="row">
+				<!-- 1 -->
+				<div class="col-1-of-4">
+					<div class="countdown-box">
+						<span class="lnr lnr-coffee-cup font-icon-32"></span>
+						<p class="number-count" data-count="24240">0</p>
+						<h4>App Downloads</h4>
+					</div>
+				</div>
+				<!-- 2 -->
+				<div class="col-1-of-4">
+					<div class="countdown-box">
+						<span class="lnr lnr-leaf font-icon-32"></span>
+						<p class="number-count" data-count="3200">0</p>
+						<h4>Refresh</h4>
+					</div>
+				</div>
+				<!-- 3 -->
+				<div class="col-1-of-4">
+					<div class="countdown-box">
+						<span class="lnr lnr-diamond font-icon-32"></span>
+						<p class="number-count" data-count="23002">0</p>
+						<h4>Customer</h4>
+					</div>
+				</div>
+				<!-- 4 -->	
+				<div class="col-1-of-4">
+					<div class="countdown-box">
+						<span class="lnr lnr-thumbs-up font-icon-32"></span>
+						<p class="number-count" data-count="24240">0</p>
+						<h4>Like Food</h4>
+					</div>
+				</div>
+			</div>
+		</section>	
+		<!-- ////////////////////////// END COUNTDOWN //////////////////////////-->
+
+		<!-- ////////////////////////     REVIEWS    //////////////////////////-->
+		<section class="section-reviews" id="reviews">
+			<!-- heading section -->
+			<div class="u-center-text m-bottom-5r">
+				<div class="heading-secondary">
+					<h2 class="heading-secondary--main">REVIEWS CUSTOMER</h2>
+					<p class="heading-secondary--sub">Officia deserunt mollit anim id est laborum.Sed utperspiciatis <br> omnis iste natus error sit voluptatem </p>
+				</div>
+			</div>
+
+			<!-- content section -->
+			<div class="row fluid-tab-port">
+				<!-- 1 -->
+				<div class="col-1-of-2 p-lr-3r">
+					<div class="story">
+						<div class="story__info">
+							<figure class="story__shape">
+								<img src="img/ava-rev-1.jpg" alt="rev" class="story__img">	
+							</figure>
+							<div class="story__name">
+								<h5>Huyn-A</h5>
+								<img src="img/Start1.png" alt="start" width="88" height="16">
+							</div>					
+						</div>
+						<p class="story__text">
+						“Lorem ipsum dolor sit amet, consectet adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectet”
+						</p>
+					</div>
+				</div>
+				<!-- 2 -->
+				<div class="col-1-of-2 p-lr-3r">
+					<div class="story">
+						<div class="story__info">
+							<figure class="story__shape">
+								<img src="img/ava-rev-2.jpg" alt="rev" class="story__img">	
+							</figure>
+
+							<div class="story__name">
+								<h5>Huyn-A</h5>
+								<img src="img/Start1.png" alt="start" width="88" height="16">
+							</div>					
+						</div>
+
+						<p class="story__text">
+						“Lorem ipsum dolor sit amet, consectet adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ////////////////////////// END REVIEWS  //////////////////////////-->
+
+		<!-- ///////////////////////     BOOK    /////////////////////////-->
+		<section class="section-book" id="book">
+			<!-- content section -->
+			<div class="row">
+				<!-- backgroud book -->
+				<div class="book">
+					<!-- form -->
+					<div class="book__form">
+						<form class="form" action="#">
+							<!-- heading section form -->
+							<div class="u-center-text m-bottom-5r">
+								<div class="heading-secondary">
+									<h2 class="heading-secondary--main">Book now</h2>
+								</div>
+							</div>
+							<!-- name -->
+							<div class="form__group">
+								<input type="text" class="form__input" id="name" placeholder="Full Name..." required="required"></input>
+								<span class="lnr lnr-user font-icon-20 form__icon"></span>	
+							</div>
+							<!-- phone - email -->
+							<div class="form__group">
+								<div class="form__col-group">
+									<input type="text" class="form__input" id="phone" placeholder="Phone..." required="required"></input>
+									<span class="lnr lnr-phone font-icon-20 form__icon"></span>	
+								</div>
+								<div class="form__col-group">
+									<input type="email" class="form__input" id="email" placeholder="Email..." required="required"></input>
+									<span class="lnr lnr-envelope font-icon-20 form__icon"></span>	
+								</div>
+							</div>	
+							<!-- time - people -->
+							<div class="form__group">
+								<div class="form__col-group">
+									<select class="form__input form__select-input">
+										<option value="volvo">Volvo</option>
+										<option value="saab">Saab</option>
+										<option value="opel">Opel</option>
+										<option value="audi">Audi</option>
+									</select>
+									<span class="lnr lnr-chevron-down font-icon-16 form__icon"></span>
+									
+								</div>
+								<div class="form__col-group">
+									<select class="form__input form__select-input">
+										<option value="volvo">Volvo</option>
+										<option value="saab">Saab</option>
+										<option value="opel">Opel</option>
+										<option value="audi">Audi</option>
+									</select>
+									<span class="lnr lnr-chevron-down font-icon-16 form__icon"></span>
+								</div>
+							</div>	
+							<!-- day -->
+							<div class="form__group">
+								<select class="form__input form__select-input">
+									<option value="volvo">Volvo</option>
+									<option value="saab">Saab</option>
+									<option value="opel">Opel</option>
+									<option value="audi">Audi</option>
+								</select>
+								<span class="lnr lnr-chevron-down font-icon-16 form__icon"></span>
+							</div>	
+							<!-- text area -->
+							<div class="form__group">
+								<textarea class="form__input form__textarea-input" placeholder="Messing..."></textarea>
+							</div>
+							<!-- button -->
+							<div class="form__group">
+								<button class="btn btn--primary">Book Now &rarr;</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ////////////////////////// END BOOK  //////////////////////////-->
+	</main>
+
+	<!-- ///////////////////////     FOOTER    /////////////////////////-->
+	<footer class="footer">
+		<!-- content section -->
+		<div class="row">
+			<!-- 1 -->
+			<div class="col-1-of-3">
+				<div class="footer__logo-box">
+					<img src="img\logo.png" alt="full logo" class="footer__logo" width="167" height="23">
+				</div>
+				<p class="footer__about">
+					Lorem ipsum dolor sit amet, consectetur 
+					adipisicing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+					exercitation ullamco laboris nisi 
+				</p>
+			</div>
+			<!-- 2 -->
+			<div class="col-1-of-3">
+				<!-- TITLE -->
+				<h3 class="footer__heading">OPEN TIME</h3>
+				<!-- 2.1 -->
+				<div class="footer__list-time clear-fix">
+					<span class="float-l">Monday - Friday</span>
+					<span class="float-r">11h -23h</span>
+				</div>
+				<!-- 2.2 -->
+				<div class="footer__list-time clear-fix">
+					<span class="float-l">Monday - Friday</span>
+					<span class="float-r">11h -23h</span>
+				</div>
+				<!-- 2.3 -->
+				<div class="footer__list-time clear-fix">
+					<span class="float-l">Monday - Friday</span>
+					<span class="float-r">11h -23h</span>
+				</div>
+			</div>
+			<!-- 3 -->
+			<div class="col-1-of-3">
+				<div class="footer__details-box">
+					<div class="footer__map">
+						<div id="map" style="width:100%;height: inherit;"></div>
+					</div>
+					<div class="footer__details">
+						<h6>ABC Towner</h6>
+						<p>248 California</p>
+						<p><span>Phone : </span><a href="tel:+6494461709" class="link-inherit">61709</a></p>
+						<p><span>Email : </span><a href="mailto:webmaster@example.com" class="link-inherit">ABCCC@gmail.com</a></p>
+						<p>www.w.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- ///////////////////////    END FOOTER    /////////////////////////-->
+
+	<!-- ///////////////////////    NAV BOTTOM     /////////////////////////-->
+	<div class="end-footer u-center-text">
+		<ul class="navbar list-line link-inherit">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#team">Our Chef</a></li>
+			<li><a href="#reviews">Reviews</a></li>
+			<li><a href="#book">Book Now</a></li>
+			<!-- <li><a href="">Contact</a></li> -->
+		</ul>
+	</div>
+	<!-- ///////////////////////    END     /////////////////////////-->
+
+	<!-- ///////////////////////    POP-UP     /////////////////////////-->
+	<div class="popup" id="popup">
+		<div class="popup__content">
+			<div class="popup__left">
+				<img src="img/i-food-1.jpg" alt="pt" class="popup__img">
+				<img src="img/i-food-2.jpg" alt="pt" class="popup__img">
+			</div>
+			<div class="popup__right">
+				<a href="#" class="popup__close">&times;</a>
+				<h2 class="heading-secondary">Star book</h2>
+				<h3 class="heading-tertiary">Importpsadksjd asjdajsdm dasjdjas asdjj</h3>
+				<p class="popup__text">loresum sadasdmmmsa dsammm asdmmas dasmmdasmdmasd</p>
+				<a href="#" class="btn btn--primary">Book now</a>
+			</div>
+		</div>
+	</div>
+		<!-- ///////////////////////    POP-UP     /////////////////////////-->
+
+
+
+
+
+
+
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-uxD5N7wlVry2Tj1jtLELFBeeZrPrFms&callback=myMap"></script>
+<script type="text/javascript">
+	// 
+$('.navbar a').on('click', function (e) {
+  e.preventDefault();
+  $(document).off("scroll");
+
+
+
+  var target = this.hash,
+    menu = target;
+
+  var $target = $(target);
+
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top
+  }, 500, 'swing', function () {
+    $(document).on("scroll");
+  });
+  window.location.hash = target;
+});
+</script>
+
+
+<script type="text/javascript">
+	$('button').click(function() {
+	  $(this).toggleClass('clicked');
+});
+
+
+
+
+
+
+
+
+
+
+	  ///////Counter
+/////////////////////////
+  var numberCount = 0;
+  $(window).scroll(function () {
+
+  var oTop = $('.section-countdown').offset().top - window.innerHeight + 180;
+  if (numberCount == 0 && $(window).scrollTop() > oTop) {
+
+    $('.number-count').each(function () {
+      var $this = $(this),
+        countTo = $this.attr('data-count');
+      $({
+        countNum: $this.text()
+      }).animate({
+        countNum: countTo
+      }, {
+        duration: 3000,
+        easing: 'swing',
+        step: function () {
+          $this.text(Math.floor(this.countNum));
+        },
+        complete: function () {
+          $this.text(this.countNum);
+          //alert('finished');
+        }
+      });
+    });
+    numberCount = 1;
+  }
+});
+
+
+function myMap() {
+  var myCenter = new google.maps.LatLng( 53.508888, -113.683333 );
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 16,scrollwheel: false};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+  var infowindow = new google.maps.InfoWindow({
+    content: "APC",
+    
+  });
+  infowindow.open(map,marker);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

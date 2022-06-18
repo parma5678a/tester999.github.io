@@ -1,0 +1,94 @@
+///////////Color global////////////////
+$color-primary: #ed2831;
+$color-body-text: #333;
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-section-1: #ea357d;
+$color-section-2: #a3d50e;
+$color-section-3: #ebab16;
+
+
+$color-light-gray-1: #f7f7f7;
+$color-light-gray-2: #e5e5e5;
+$color-light-slate-1: #ccc;
+
+$color-gray: #999;
+$color-dark-gray: #1e1c1d;
+$color-dark-gray-2: #444;
+$color-dark-blue: #21262e;
+
+////////////// Font //////////////////
+$font-body:'Poppins', sans-serif;
+$font-special: 'Galada', cursive;
+
+
+///////////Font-size global////////////////
+
+$default-font-size: 14px;
+
+// $default-font-size: 1.4rem;
+// $default-font-size-port: 1.75rem;
+// $default-font-size-land: 1.5556rem;
+// $default-font-size-desktop: 1.1667rem;
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////// Heading default //////////////////
+$header:h2,h3,h4,h5,h6;
+$fontsize:3.2rem,2.6rem,2.2rem,1.8rem,1.6rem;
+$lengthfont: length($header);
+
+/////////// Font-weight ////////////////
+$refular: 400;
+$semi-bold: 600;
+
+/////////////// Font - icon  //////////////////
+$font-icon:(
+	font-icon-16: 1.6rem,
+	font-icon-18: 1.8rem,
+	font-icon-20: 2rem,
+	font-icon-32: 3.2rem
+);
+
+
+/////////////////Shadow value////////////////
+$box-shadow-1: 0 1.5rem 4rem rgba(0, 0, 0, .15);
+$box-shadow-2: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+
+$box-shadow-btn-1: 0 1rem 2rem rgba($color-white,.05);
+$box-shadow-btn-2: 0 .5rem 1rem rgba($color-white,.2);
+
+
+/////////// Gradient-value ////////////////
+$bg-gradient-1: linear-gradient(to right bottom,rgba($color-black,0.8), rgba($color-white, .02));
+$bg-gradient-2: linear-gradient(to right bottom,rgba(#181e23, .85), rgba($color-black, .75));
+
+$bg-gradient-shape: linear-gradient(105deg,rgba($color-white, .9) 0%,rgba($color-white, .9) 65%, transparent 50%);
+
+
+/////////////// BG FILE //////////////////
+$img-url : '../img/';
+
+/////////// GRID ////////////////
+$grid-width: 117rem;
+$gutter-horizontal: 3rem;
+$gutter-vertical-small: 3rem;
+$gutter-vertical: 5rem;
+
+$gutter-horizontal-2: 1.5rem;
+
+
+
+
+

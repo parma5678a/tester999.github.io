@@ -1,0 +1,253 @@
+//////////////////////////////////////////
+/* /////////////////ABOUT////////////// */
+//////////////////////////////////////////
+.section-about{
+	position: relative;
+	background-color: $color-light-gray-1;
+	padding: 10rem 0rem 20rem;
+	overflow: hidden;
+	
+	@include respond(tab-port) {
+		padding: 5rem 0rem 12rem;
+	}
+
+
+	.row{ 
+		position: relative; 
+		//social//
+		footer {
+			position: absolute;
+			bottom: 0;  
+			left: 0;
+			background-color: $color-primary;
+			padding: 1rem 0px;
+			color: $color-white;
+			@include clearfix;
+
+			@include respond(tab-port) {
+				bottom: -30px; 
+			}
+
+
+
+			.social {
+				float:left;
+				padding-left: 1.5rem;
+
+				li {
+					svg {
+						fill: $color-white;
+					}
+
+					&:not(:last-child){
+						margin-right: 2rem;
+					}
+				}
+			}
+
+			.number-phone {
+				float: right;
+				padding-right: 2rem;
+				font-size: 1.8rem;
+				font-weight: $semi-bold;
+			}
+
+			&::before {
+				position: absolute;
+				top: 0px;
+				left: -100vw;
+				background-color: $color-primary; 
+				width: 100vw;
+				height: 100%;
+				content: '';
+			}
+		
+			@include respond(tab-port) {
+				::after {
+					position: absolute;
+					top: 0px;
+					right: -100vw;
+					background-color: $color-primary; 
+					width: 100vw;
+					height: 100%;
+					content: '';
+				}
+			}
+			
+
+
+		}
+	}
+}
+//////////////////////////////////////////////////////
+/*/////////////////SERVICES//////////////////////////*/
+////////////////////////////////////////////////////
+.section-services {
+	position: relative;
+	z-index: 0;
+    padding: 10rem 0rem;
+    background: {
+		image: $bg-gradient-1, 
+		       url($img-url + "bg-services.jpg");
+		size: cover;
+		attachment: fixed;
+		position: center;
+    };
+
+    @include respond(tab-port) {
+		padding: 5rem 0rem;
+	}
+
+	.heading-secondary {
+		color: $color-white;
+
+		&--main {
+			color: $color-white;
+			&::before {
+				background-color: $color-white;;
+			}
+		}
+	}
+}
+////////////////////////////////////////////////////
+/* /////////////////Intro////////////////////////// */
+////////////////////////////////////////////////////
+.section-intro  {
+	position: relative;
+	z-index: 1;
+	padding: 10rem 0rem;
+	background: {
+		image: url($img-url + "bg-hot.jpg");
+		attachment: fixed;
+		size: cover;
+		repeat: no-repeat;
+	}
+
+	&::after {
+		position: absolute;
+		top:0;
+		left:0;
+		z-index: -1;
+		background-color: rgba($color-white,0.9);
+		width: 100%;
+		height: 100%;
+		content: '';
+	}
+
+	@include respond(tab-port) {
+		padding: 5rem 0rem;
+	}
+}
+////////////////////////////////////////////////////
+/* /////////////////TEAM////////////////////////// */
+////////////////////////////////////////////////////
+.section-team {
+	background-color: $color-light-gray-1;
+	padding: 10rem 0rem;
+
+	@include respond(tab-port) {
+		padding: 5rem 0rem;
+	}
+}
+
+
+////////////////////////////////////////////////////
+/* /////////////////Countdown//////////////////// */
+////////////////////////////////////////////////////
+.section-countdown {
+	position: relative;
+	z-index: 1;
+	padding: 6rem 0rem;
+	background: {
+		image: url($img-url + "bg-countdown.png");
+		repeat: no-repeat;
+		attachment: fixed;
+		size: cover;
+	}
+
+	&::after {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba($color-black, 0.6);
+		width: 100%;
+		height: 100%;
+		content: '';
+	}
+}
+
+////////////////////////////////////////////////////
+/* /////////////////Reviews//////////////////// */
+////////////////////////////////////////////////////
+.section-reviews {
+	background-color: $color-light-gray-1;
+	padding: 10rem 0rem;
+
+	 @include respond(tab-port) {
+		padding: 5rem 0rem;
+	}
+}
+
+
+////////////////////////////////////////////////////
+/* /////////////////Book-form//////////////////// */
+////////////////////////////////////////////////////
+.section-book {
+	padding: 10rem 0rem;
+	background: {
+        image: $bg-gradient-2, url($img-url + "bg-fullform.jpg");
+		attachment: fixed;
+		size: cover;
+	}
+
+	 @include respond(tab-port) {
+		padding: 5rem 0rem 10rem;
+	}
+}
+
+.book {
+	background-image: $bg-gradient-shape, url($img-url + "bg-form.jpg");
+	background-size: 100%;
+	border-radius: 3px;
+	height: 70rem;
+	@include prefix(box-shadow, $box-shadow-1, webkit);
+	@include respond(tab-land) {
+		background-image: 
+	        linear-gradient(105deg,
+	        rgba($color-white, .9) 0%,
+			rgba($color-white, .9) 65%, 
+			transparent 50%), 
+		    url($img-url + "bg-form.jpg");
+		background-size: cover;
+	}
+
+	@include respond(tab-port) {
+		background-image: 
+	        linear-gradient(to right,
+			rgba($color-white, .9) 0%,
+            rgba($color-white, .9) 100%), 
+		    url($img-url + "bg-form.jpg");
+		background-size: cover;
+	}
+
+
+	
+	&__form {
+		width: 65%;
+		padding: 5rem 10rem;
+		
+		@include respond(tab-land) {
+			width: 70%;
+		}
+
+		@include respond(tab-port) {
+			padding: 5rem 1.5rem;
+			width: 100%;
+		}
+
+	}
+}
+
+
+

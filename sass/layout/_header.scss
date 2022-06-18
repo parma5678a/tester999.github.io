@@ -1,0 +1,60 @@
+//////////////////////////////////////////
+/* //////////////Header////////////////// */
+//////////////////////////////////////////
+.header {
+	position: relative;
+	z-index: 3;
+	height: 74rem;
+	overflow: hidden;
+	// background: {
+	// 	color: rgba($color-black, 0.65);
+	// 	attachment: fixed;
+	// }
+
+	@include respond(phone) {
+		height: 54rem;
+	}
+
+
+	&::after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+		content:'';
+		background: {
+			color: rgba($color-black, 0.65);
+			attachment: fixed;
+		}
+
+	}
+
+	&__logo-box{
+		position: absolute;
+		top: 4.5rem;
+		left: 4rem;
+	}
+
+	&__logo {
+		height: 2.2rem;
+	}
+
+	&__text-box {
+		width: 100%;
+		text-align: center;
+		@include absCenter;
+		@include respond(phone) {
+			top: 55%;
+		}
+
+
+	}
+
+	form {
+		margin: 0 auto;
+		display: inline-block;
+	}
+
+}

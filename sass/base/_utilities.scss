@@ -1,0 +1,95 @@
+/////////////////////////////////////////////////////
+/* ///////////////Utilites////////////////////// */
+
+/* float */
+.float-l{
+	float: left !important;
+}
+
+.float-r{
+	float: right !important;
+}
+
+.clear-fix::after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+
+/* center */
+.u-center-text {
+	text-align:center;
+}
+
+/* margin */
+.m-bottom-3r {
+	margin-bottom: 3rem;
+}
+
+.m-bottom-4r {
+	margin-bottom: 4rem;
+}
+
+.m-bottom-5r {
+	margin-bottom: 5rem;
+	@include respond(phone) {
+		margin-bottom: 3rem;
+	};
+}
+
+.m-bottom-8r {
+	margin-bottom: 8rem;
+}
+
+.m-top-8r {
+	margin-top: 8rem;
+}
+
+/* padding */
+.p-lr-3r {
+	padding: 0 3rem;
+
+	@include respond(phone) {
+		padding: 0;
+	};
+}
+
+/* reponsive img */
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+/* list-inline */
+ul.list-line {
+	list-style-type: none;
+}
+
+.list-line li {
+	display: inline-block;
+}
+
+.list-line li a {
+	display: block;
+}
+
+/* link-inherit */
+a.link-inherit,
+ul.link-inherit a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a.link-inherit:hover
+,ul.link-inherit a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+

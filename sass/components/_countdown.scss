@@ -1,0 +1,20 @@
+
+//////////////////////////////////////////
+/* /////////////Countdown////////////// */
+//////////////////////////////////////////
+.countdown-box {
+	position: relative;
+	z-index: 5;
+	color: $color-white;
+	text-align: center;
+	
+	p {	
+		padding-top: 1rem;
+		font-size: 2.2rem;
+		font-weight: $semi-bold;
+	}
+
+	h4 {
+		font-weight: $refular;
+	}
+}
